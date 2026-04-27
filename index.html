@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <title data-title-en="Personal Website | Introduction" data-title-zh="个人网站 | 介绍">Personal Website | Introduction</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">
+      <span class="lang-inline" data-lang="en">Skip to content</span>
+      <span class="lang-inline" data-lang="zh">跳至主要内容</span>
+    </a>
+
+    <header class="site-header">
+      <div class="container">
+        <nav class="nav" aria-label="Primary">
+          <a class="brand" href="./index.html">
+            <span class="brand-badge" aria-hidden="true"></span>
+            <span class="brand-text">
+              <span>Elliott Lowman 罗艾橙</span>
+              <small>
+                <span class="lang-inline" data-lang="en">Personal Website</span>
+                <span class="lang-inline" data-lang="zh">个人网站</span>
+              </small>
+            </span>
+          </a>
+
+          <div class="nav-right">
+            <div class="nav-links" role="navigation">
+              <a data-nav="true" href="./index.html">
+                <span class="lang-inline" data-lang="en">Introduction</span>
+                <span class="lang-inline" data-lang="zh">介绍</span>
+              </a>
+              <a data-nav="true" href="./projects.html">
+                <span class="lang-inline" data-lang="en">Portfolio</span>
+                <span class="lang-inline" data-lang="zh">作品集</span>
+              </a>
+              <a data-nav="true" href="./personal-interests.html">
+                <span class="lang-inline" data-lang="en">Personal Interests</span>
+                <span class="lang-inline" data-lang="zh">兴趣爱好</span>
+              </a>
+              <a data-nav="true" href="./documents.html">
+                <span class="lang-inline" data-lang="en">Documents</span>
+                <span class="lang-inline" data-lang="zh">文件</span>
+              </a>
+            </div>
+
+            <div class="lang-toggle" role="group" aria-label="Language">
+              <button type="button" data-lang="en" aria-pressed="true">EN</button>
+              <button type="button" data-lang="zh" aria-pressed="false">中文</button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <div class="container">
+        <section class="hero" aria-labelledby="page-title">
+          <div class="hero-grid">
+            <div>
+              <h1 id="page-title">
+                <span class="lang-inline" data-lang="en">Introduction</span>
+                <span class="lang-inline" data-lang="zh">介绍</span>
+              </h1>
+              <p class="lang-block" data-lang="en">
+                My name is Elliott Lowman. I am a junior at Wake Forest University majoring Computer Science and Mathematics, with a minor in Chinese Language and Culture.
+              </p>
+              <p class="lang-block" data-lang="zh">
+                我叫罗艾橙，英文名字是Elliott Lowman（洛曼·艾略特）。是维克森林大学大三学生，主修计算机科学和数学，辅修中文。
+              </p>
+            </div>
+
+            <div class="media-placeholder" role="img" aria-label="Image placeholder">
+              <img
+                src="./assets/intro.png"
+                alt="Elliott standing outdoors in front of rocks"
+                style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius);"
+                loading="eager"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section class="section" aria-labelledby="about-title">
+          <div class="section-header">
+            <h2 id="about-title">
+              <span class="lang-inline" data-lang="en">About Me</span>
+              <span class="lang-inline" data-lang="zh">关于我</span>
+            </h2>
+          </div>
+          <div class="grid">
+            <article class="card span-12">
+              <p class="lang-block" data-lang="en">
+                I am 20 years old. I was born in Portland, Oregon. I lived in several different US states before settling in Sandpoint, Idaho in 2019, where I attended and graduate from Sandpoint High School.
+              </p>
+              <p class="lang-block" data-lang="zh">
+                我今年20岁。我在美国波特兰州的俄勒冈出生，在美国多个州长大，最终2019年搬到美国爱达荷州的丧德波因特，在哪里高中毕业了。
+              </p>
+              <p class="lang-block" data-lang="en">
+                Some of my hobbies inlcude listening to music, backpacking, rock climbing, playing video games, and biblical studies among other things.
+              </p>
+              <p class="lang-block" data-lang="zh">
+                我的兴趣爱好包括听音乐、攀岩、背包旅行、玩游戏、和圣经学习等。
+              </p>
+              <div class="media-placeholder small" role="img" aria-label="Image placeholder" style="margin-top: 14px">
+                <img
+                  src="./assets/about.png"
+                  alt="Scenic outdoor landscape"
+                  style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius-sm);"
+                  loading="lazy"
+                />
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" aria-labelledby="about-title">
+          <div class="section-header">
+            <h2 id="about-title">
+              <span class="lang-inline" data-lang="en">Contact Information</span>
+              <span class="lang-inline" data-lang="zh">联系方式</span>
+            </h2>
+          </div>
+          <div class="grid">
+            <article class="card span-12">
+              <p class="lang-block" data-lang="en">
+                Email: <a href="mailto:elliott.m.lowman@gmail.com">elliott.m.lowman@gmail.com</a>
+              </p>
+              <p class="lang-block" data-lang="zh">
+                电子邮箱: <a href="mailto:elliott.m.lowman@gmail.com">elliott.m.lowman@gmail.com</a>
+              </p>
+            </article>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-inner">
+          <div class="footer-links" aria-label="Footer links">
+            <a href="./index.html">
+              <span class="lang-inline" data-lang="en">Introduction</span>
+              <span class="lang-inline" data-lang="zh">介绍</span>
+            </a>
+            <a href="./projects.html">
+              <span class="lang-inline" data-lang="en">Portfolio</span>
+              <span class="lang-inline" data-lang="zh">作品集</span>
+            </a>
+            <a href="./personal-interests.html">
+              <span class="lang-inline" data-lang="en">Personal Interests</span>
+              <span class="lang-inline" data-lang="zh">兴趣爱好</span>
+            </a>
+            <a href="./documents.html">
+              <span class="lang-inline" data-lang="en">Documents</span>
+              <span class="lang-inline" data-lang="zh">文件</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <script>
+        document.getElementById("year").textContent = String(new Date().getFullYear());
+      </script>
+    </footer>
+  </body>
+</html>
+
